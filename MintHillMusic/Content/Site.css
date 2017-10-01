@@ -22,3 +22,40 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .item {
+        background-size: 100%;
+        max-height: 300px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .item {
+        background-size:cover%;
+        max-height: 200px;
+    }
+
+    .carousel-caption p {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .item {
+        background-size: 100%;
+        max-height: 400px;
+    }
+    .carousel-caption p {
+        font-size: 50px;
+        line-height: 1.4;
+    }
+}
