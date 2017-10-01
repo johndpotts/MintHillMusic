@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MintHillMusic.Models
 {
@@ -6,7 +7,9 @@ namespace MintHillMusic.Models
     {
         public int ReviewID { get; set; }
 
-            public Instructor Instructor { get; set; }
+        public int InstructorID { get; set; }
+
+            public virtual Instructor Instructor { get; set; }
 
         [Required()]
         [Display(Name ="Review")]

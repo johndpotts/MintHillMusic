@@ -193,6 +193,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ReviewsController.cs" />
+    <Compile Include="Controllers\SongsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -203,6 +204,10 @@
     <Compile Include="Migrations\201710010043539_update.cs" />
     <Compile Include="Migrations\201710010043539_update.Designer.cs">
       <DependentUpon>201710010043539_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710010856575_another.cs" />
+    <Compile Include="Migrations\201710010856575_another.Designer.cs">
+      <DependentUpon>201710010856575_another.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -277,6 +282,11 @@
     <Content Include="Views\Reviews\Details.cshtml" />
     <Content Include="Views\Reviews\Edit.cshtml" />
     <Content Include="Views\Reviews\Index.cshtml" />
+    <Content Include="Views\Songs\Create.cshtml" />
+    <Content Include="Views\Songs\Delete.cshtml" />
+    <Content Include="Views\Songs\Details.cshtml" />
+    <Content Include="Views\Songs\Edit.cshtml" />
+    <Content Include="Views\Songs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -300,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710010043539_update.resx">
       <DependentUpon>201710010043539_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710010856575_another.resx">
+      <DependentUpon>201710010856575_another.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
