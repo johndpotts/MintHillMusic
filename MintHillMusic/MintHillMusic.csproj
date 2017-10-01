@@ -226,7 +226,11 @@
     <Content Include="Content\Images\banner1.jpg" />
     <Content Include="Content\Images\banner2.jpg" />
     <Content Include="Content\Images\banner3.jpg" />
+    <Content Include="Content\Images\c-sharp.png" />
+    <Content Include="Content\Images\dot-net.png" />
+    <Content Include="Content\Images\entity.png" />
     <Content Include="Content\Images\favicon.png" />
+    <Content Include="Content\Images\icon-javascript.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
