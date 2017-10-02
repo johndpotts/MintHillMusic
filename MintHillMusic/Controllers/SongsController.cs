@@ -15,6 +15,7 @@ namespace MintHillMusic.Controllers
         private MintHillMusicContext db = new MintHillMusicContext();
 
         // GET: Songs
+       
         public ActionResult Index()
         {
             return View(db.Songs.ToList());
